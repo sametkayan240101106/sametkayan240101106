@@ -23,3 +23,21 @@ main:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(135deg, #feb47b, #ff7e5f);
 }
+.merkezi {
+    margin: auto;
+    background-color: #FFF4A3;
+}
+div {
+    color: black;
+    width: 300px;
+    margin: auto;
+    background-color: #FFF4A3;
+}
+.mycontainer {
+    width:100%;
+    overflow:auto;
+  }
+.mycontainer div {
+    width:33%;
+    float:left;
+}
