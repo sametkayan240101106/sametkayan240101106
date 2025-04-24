@@ -1,14 +1,25 @@
-main {
-    background: linear-gradient(135deg, #ff7e5f, #feb47b);
-    color: #fff;
-    font-family: 'Arial', sans-serif;
+etkayan240101106\style.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional: light gray background for contrast */
+}
+
+.container {
+    background-color: orange;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Optional: limit the maximum width */
+    text-align: center;
 }
-
-main:hover {
+main : hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+    background-color: linear-gradient(135deg,#feb47b,#ff7e5f);
 }
