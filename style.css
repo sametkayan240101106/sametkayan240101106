@@ -18,8 +18,8 @@ body {
     max-width: 800px; /* Optional: limit the maximum width */
     text-align: center;
 }
-main : hover {
+main:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0,0,0,0.1);
-    background-color: linear-gradient(135deg,#feb47b,#ff7e5f);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(135deg, #feb47b, #ff7e5f);
 }
